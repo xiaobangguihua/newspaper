@@ -80,6 +80,7 @@ class Parser(object):
             'a', 'span', 'p', 'br', 'strong', 'b',
             'em', 'i', 'tt', 'code', 'pre', 'blockquote', 'img', 'h1',
             'h2', 'h3', 'h4', 'h5', 'h6',
+            'table', 'tbody', 'tr', 'td', 'th',
             'ul', 'ol', 'li', 'dl', 'dt', 'dd']
         article_cleaner.remove_unknown_tags = False
         return article_cleaner.clean_html(node)
